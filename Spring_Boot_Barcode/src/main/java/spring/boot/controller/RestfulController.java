@@ -36,7 +36,7 @@ public class RestfulController {
 		Code128Bean barcode128Bean = new Code128Bean();
 
 		barcode128Bean.setCodeset(Code128Constants.CODESET_B);
-		barcode128Bean.setHeight(50);
+		barcode128Bean.setHeight(35);
 		final int dpi = 100;
 
 		// Configure the barcode generator
